@@ -1,8 +1,33 @@
 @font-face {
-  font-family: abyssal;
+  font-family: infernal;
   src: url('./Barazhad.otf');
 }
 
+#title {
+  font-family: infernal;
+}
+
 #output {
-  font-family: abyssal;
+  font-family: infernal;
+  font-size: 45pt;
+}
+
+#input {
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  background-color: gainsboro;
+  font-size: 15pt;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background: linear-gradient(217deg, rgb(165, 42, 42), rgba(141, 59, 59, 0.719));
+  background-size:cover;
+  height: 100vh;
+  width: 100vw;
 }
