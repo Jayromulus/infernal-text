@@ -1,0 +1,8 @@
+@font-face {
+  font-family: abyssal;
+  src: url('./Barazhad.otf');
+}
+
+#output {
+  font-family: abyssal;
+}
